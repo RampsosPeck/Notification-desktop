@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/La_Paz',
 
     /*
     |--------------------------------------------------------------------------
@@ -171,7 +171,7 @@ return [
          */
         Notifidesktop\Providers\AppServiceProvider::class,
         Notifidesktop\Providers\AuthServiceProvider::class,
-        // Notifidesktop\Providers\BroadcastServiceProvider::class,
+        Notifidesktop\Providers\BroadcastServiceProvider::class,
         Notifidesktop\Providers\EventServiceProvider::class,
         Notifidesktop\Providers\RouteServiceProvider::class,
 
